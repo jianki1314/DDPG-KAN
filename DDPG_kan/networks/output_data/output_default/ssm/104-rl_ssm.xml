@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-09-05 14:11:29 by Eclipse SUMO sumo Version v1_20_0+0085-e155ab8699b
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../networks/roundabout.net.xml"/>
+        <route-files value="../networks/routes1.rou.xml"/>
+    </input>
+
+    <output>
+        <output-prefix value="104-"/>
+        <battery-output.precision value="4"/>
+        <tripinfo-output value="../networks/output_data/output_default/tripinfo/tripinfo-output.xml"/>
+        <collision-output value="../networks/output_data/output_default/collision/collision-output.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <step-length value="0.4"/>
+    </time>
+
+    <processing>
+        <step-method.ballistic value="true"/>
+        <lateral-resolution value="3.2"/>
+        <collision.action value="warn"/>
+        <collision.check-junctions value="True"/>
+        <collision.mingap-factor value="0"/>
+        <time-to-teleport value="-1"/>
+        <random-depart-offset value="5"/>
+    </processing>
+
+    <report>
+        <no-warnings value="True"/>
+        <no-step-log value="True"/>
+    </report>
+
+    <emissions>
+        <device.emissions.probability value="1"/>
+    </emissions>
+
+    <battery>
+        <device.battery.probability value="1"/>
+    </battery>
+
+    <traci_server>
+        <remote-port value="58711"/>
+    </traci_server>
+
+    <gui_only>
+        <quit-on-end value="True"/>
+        <start value="True"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<SSMLog>
+    <conflict begin="74.00" end="93.20" ego="rl_0" foe="vehicle_33">
+        <minTTC time="78.00" position="64.15,1.60" type="2" value="1.30" speed="2.08"/>
+        <maxDRAC time="78.00" position="64.15,1.60" type="2" value="0.80" speed="2.08"/>
+        <PET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <maxMDRAC time="78.00" position="64.15,1.60" type="2" value="3.53" speed="2.08"/>
+    </conflict>
+    <conflict begin="76.80" end="91.20" ego="rl_0" foe="vehicle_66">
+        <minTTC time="79.20" position="69.65,1.60" type="3" value="1.63" speed="0.07"/>
+        <maxDRAC time="79.20" position="69.65,1.60" type="3" value="0.50" speed="0.07"/>
+        <PET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <maxMDRAC time="79.20" position="69.65,1.60" type="3" value="1.31" speed="0.07"/>
+    </conflict>
+</SSMLog>

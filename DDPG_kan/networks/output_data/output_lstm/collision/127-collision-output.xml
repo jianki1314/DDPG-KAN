@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-11-02 10:15:21 by Eclipse SUMO sumo Version v1_20_0+0085-e155ab8699b
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../networks/roundabout.net.xml"/>
+        <route-files value="../networks/routes_LSTM.rou.xml"/>
+    </input>
+
+    <output>
+        <output-prefix value="127-"/>
+        <battery-output.precision value="4"/>
+        <tripinfo-output value="../networks/output_data/output_lstm/tripinfo/tripinfo-output.xml"/>
+        <collision-output value="../networks/output_data/output_lstm/collision/collision-output.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <step-length value="0.4"/>
+    </time>
+
+    <processing>
+        <step-method.ballistic value="true"/>
+        <lateral-resolution value="3.2"/>
+        <collision.action value="warn"/>
+        <collision.mingap-factor value="0"/>
+        <time-to-teleport value="-1"/>
+        <random-depart-offset value="5"/>
+    </processing>
+
+    <report>
+        <no-warnings value="True"/>
+        <no-step-log value="True"/>
+    </report>
+
+    <emissions>
+        <device.emissions.probability value="1"/>
+    </emissions>
+
+    <battery>
+        <device.battery.probability value="1"/>
+    </battery>
+
+    <traci_server>
+        <remote-port value="45187"/>
+    </traci_server>
+
+    <gui_only>
+        <quit-on-end value="True"/>
+        <start value="True"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+    <collision time="101.20" type="collision" lane="round3_1" pos="55.54" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="1.19" victimSpeed="0.00"/>
+    <collision time="101.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="102.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="102.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="102.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="103.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="103.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="104.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="104.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="104.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="105.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="105.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="106.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="106.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="106.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="107.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="107.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="108.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="108.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="108.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="109.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="109.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="110.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="110.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="110.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="111.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="111.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="112.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="112.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="112.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="113.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="113.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="114.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="114.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="114.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="115.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="115.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="116.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="116.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="116.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="117.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="117.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="118.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="118.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="118.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="119.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="119.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="120.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="120.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="120.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="121.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="121.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="122.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="122.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="122.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="123.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="123.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="124.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="124.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="124.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="125.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="125.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="126.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="126.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="126.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="127.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="127.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="128.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="128.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="128.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="129.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="129.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="130.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="130.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="130.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="131.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="131.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="132.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="132.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="132.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="133.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="133.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="134.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="134.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="134.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="135.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="135.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="136.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="136.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="136.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="137.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="137.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="138.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="138.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="138.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="139.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="139.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="140.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="140.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="140.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="141.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="141.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="142.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="142.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="142.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="143.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="143.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="144.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="144.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="144.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="145.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="145.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="146.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="146.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="146.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="147.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="147.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="148.00" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="148.40" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="148.80" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="149.20" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+    <collision time="149.60" type="collision" lane="round3_1" pos="55.78" collider="rl_0" victim="vehicle_48" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="0.00"/>
+</collisions>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route edges= "road0 round0 round1 round2 -road1"  id="route_0"/>
+    <route edges= "road0 round0 round1 -road2"  id="route_1"/>
+    <route edges= "road0 round0 -road3"  id="route_2"/>
+    <route edges= "road1 -road0"  id="route_3"/>
+    <route edges= "road1 -road2"  id="route_4"/>
+    <route edges= "road1 -road3"  id="route_5"/>
+    <route edges= "road2 -road0"  id="route_6"/>
+    <route edges= "road2 -road1"  id="route_7"/>
+    <route edges= "road2 -road3"  id="route_8"/>
+    <route edges= "road3 -road0"  id="route_9"/>
+    <route edges= "road3 -road1"  id="route_10"/>
+    <route edges= "road3 -road2"  id="route_11"/>
+    
+
+    <vType id="rlAnget" length="4.00" minGap="1.5" maxSpeed="13.89" actionStepLength="1.00" emissionClass="Energy/default" laneChangeModel="SL2015"  lcStrategic="5" lcSpeedGainRight="1" lcSpeedGain="120" lcAssertive="20" carFollowModel="Krauss" lcCooperativeRoundabout="1" accel="4.0" decel="3" sigma="0.5" color="0,0,1">
+        <param key="airDragCoefficient" value="0.35"/>
+        <param key="constantPowerIntake" value="100"/>
+        <param key="frontSurfaceArea" value="2.6"/>
+        <param key="has.battery.device" value="true"/>
+        <param key="internalMomentOfInertia" value="0.01"/>
+        <param key="maximumBatteryCapacity" value="64000"/>
+        <param key="maximumPower" value="150000"/>
+        <param key="propulsionEfficiency" value=".98"/>
+        <param key="radialDragCoefficient" value="0.1"/>
+        <param key="recuperationEfficiency" value=".96"/>
+        <param key="rollDragCoefficient" value="0.01"/>
+        <param key="stoppingThreshold" value="0.1"/>
+        <param key="vehicleMass" value="1830"/>
+
+        <param key="has.ssm.device" value="true"/>
+        <param key="device.ssm.measures" value="TTC DRAC PET MDRAC"/>
+        <param key="device.ssm.thresholds" value="3.0 3.0 2.0 3.4"/>
+        <param key="device.ssm.range" value="50.0" />
+        <param key="device.ssm.mdrac.prt" value="1.0" />
+        <param key="device.ssm.extratime" value="5.0" />
+        <param key="device.ssm.file" value="output_data/output_td3/ssm/rl_ssm.xml" />
+        <param key="device.ssm.trajectories" value="false" />
+        <param key="device.ssm.geo" value="false" />
+        <param key="device.ssm.write-positions" value="false" />
+        <param key="device.ssm.write-lane-positions" value="false" />
+        <param key="device.ssm.filter-edges.input-file" value="input_list.txt" />
+        <param key="device.ssm.exclude-conflict-types" value="" />
+
+        <param key="has.driverstate.device" value="true"/>
+    </vType>
+
+    <vType id="human" length="4.00" minGap="1.5" maxSpeed="13.89" actionStepLength="1.00" emissionClass="Energy/default" laneChangeModel="SL2015"  lcStrategic="5" lcSpeedGainRight="1" lcSpeedGain="120" lcAssertive="20" carFollowModel="Krauss" lcCooperativeRoundabout="1" accel="4.0" decel="3" sigma="0.5" >
+        <param key="airDragCoefficient" value="0.35"/> <!-- 车辆的空气阻力系数 -->
+        <param key="constantPowerIntake" value="100"/> <!-- 车辆恒定功率消耗 -->
+        <param key="frontSurfaceArea" value="2.6"/> <!-- 车辆的正面迎风面积 -->
+        <param key="has.battery.device" value="true"/> <!-- 指定车辆配备电池设备 -->
+        <param key="internalMomentOfInertia" value="0.01"/> <!-- 转动惯量，跟车辆转向有关 -->
+        <param key="maximumBatteryCapacity" value="64000"/> <!-- 车辆的电池容量 -->
+        <param key="maximumPower" value="150000"/> <!-- 车辆的最大功率输出 -->
+        <param key="propulsionEfficiency" value=".98"/> <!-- 车辆的能量转换效率 -->
+        <param key="radialDragCoefficient" value="0.1"/> <!-- 车辆的径向拖拽系数 -->
+        <param key="recuperationEfficiency" value=".96"/> <!-- 车辆再生制动的效率-->
+        <param key="rollDragCoefficient" value="0.01"/> <!-- 车辆的滚动阻力系数 -->
+        <param key="stoppingThreshold" value="0.1"/> <!-- 车辆静止的速度阈值 -->
+        <param key="vehicleMass" value="1830"/> <!-- 车辆质量 -->
+    </vType>
+</routes>

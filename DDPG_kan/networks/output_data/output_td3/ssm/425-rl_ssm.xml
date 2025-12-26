@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-08-27 17:30:31 by Eclipse SUMO sumo Version v1_20_0+0085-e155ab8699b
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../networks/roundabout.net.xml"/>
+        <route-files value="../networks/routes_td3.rou.xml"/>
+    </input>
+
+    <output>
+        <output-prefix value="425-"/>
+        <battery-output.precision value="4"/>
+        <tripinfo-output value="../networks/output_data/output_td3/tripinfo/tripinfo-output.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <step-length value="0.4"/>
+    </time>
+
+    <processing>
+        <step-method.ballistic value="true"/>
+        <lateral-resolution value="3.2"/>
+        <collision.action value="warn"/>
+        <collision.mingap-factor value="0"/>
+        <time-to-teleport value="-1"/>
+        <random-depart-offset value="5"/>
+    </processing>
+
+    <report>
+        <no-warnings value="True"/>
+        <no-step-log value="True"/>
+    </report>
+
+    <emissions>
+        <device.emissions.probability value="1"/>
+    </emissions>
+
+    <battery>
+        <device.battery.probability value="1"/>
+    </battery>
+
+    <traci_server>
+        <remote-port value="54415"/>
+    </traci_server>
+
+    <gui_only>
+        <quit-on-end value="True"/>
+        <start value="True"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<SSMLog>
+    <conflict begin="54.80" end="70.00" ego="rl_0" foe="vehicle_77">
+        <minTTC time="57.60" position="64.14,1.60" type="2" value="1.22" speed="1.77"/>
+        <maxDRAC time="57.60" position="64.14,1.60" type="2" value="0.73" speed="1.77"/>
+        <PET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <maxMDRAC time="57.60" position="64.14,1.60" type="2" value="4.06" speed="1.77"/>
+    </conflict>
+    <conflict begin="56.40" end="70.00" ego="rl_0" foe="vehicle_7">
+        <minTTC time="58.40" position="69.64,1.60" type="3" value="1.92" speed="0.00"/>
+        <maxDRAC time="58.40" position="69.64,1.60" type="3" value="0.33" speed="0.00"/>
+        <PET time="NA" position="NA" type="NA" value="NA" speed="NA"/>
+        <maxMDRAC time="58.40" position="69.64,1.60" type="3" value="0.70" speed="0.00"/>
+    </conflict>
+</SSMLog>

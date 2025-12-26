@@ -1,0 +1,13 @@
+<configuration>
+	<input> 
+		<net-file value="roundabout.net.xml"/> 
+		<route-files value="trips.trips.xml"/> 
+	</input> 
+	<output> 
+		<output-file value="routes.rou.xml"/>
+	</output> 
+	<report> 
+		<xml-validation value="never"/> 
+		<no-step-log value="true"/> 
+	</report>
+</configuration>

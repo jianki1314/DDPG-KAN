@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-05-29 08:51:38 by Eclipse SUMO sumo Version v1_20_0+0085-e155ab8699b
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../networks/roundabout.net.xml"/>
+        <route-files value="../networks/routes1.rou.xml"/>
+    </input>
+
+    <output>
+        <output-prefix value="71-"/>
+        <battery-output.precision value="4"/>
+        <tripinfo-output value="../networks/output_data/output_kan/tripinfo/tripinfo-output.xml"/>
+        <collision-output value="../networks/output_data/output_kan/collision/collision-output.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <step-length value="0.4"/>
+    </time>
+
+    <processing>
+        <step-method.ballistic value="true"/>
+        <lateral-resolution value="3.2"/>
+        <collision.action value="warn"/>
+        <collision.mingap-factor value="0"/>
+        <time-to-teleport value="-1"/>
+        <random-depart-offset value="5"/>
+    </processing>
+
+    <report>
+        <no-warnings value="True"/>
+        <no-step-log value="True"/>
+    </report>
+
+    <emissions>
+        <device.emissions.probability value="1"/>
+    </emissions>
+
+    <battery>
+        <device.battery.probability value="1"/>
+    </battery>
+
+    <traci_server>
+        <remote-port value="40861"/>
+    </traci_server>
+
+    <gui_only>
+        <quit-on-end value="True"/>
+        <start value="True"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="vehicle_85" depart="2.00" departLane="road1_0" departPos="4.10" departPosLat="0.00" departSpeed="1.14" departDelay="1.11" arrival="17.60" arrivalLane="-road0_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.73" duration="15.60" routeLength="122.77" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.30" rerouteNo="1" devices="tripinfo_vehicle_85 routing_vehicle_85 emissions_vehicle_85 battery_vehicle_85" vType="human" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="67.030986"/>
+    </tripinfo>
+    <tripinfo id="vehicle_92" depart="1.20" departLane="road3_0" departPos="4.10" departPosLat="0.00" departSpeed="5.30" departDelay="0.40" arrival="19.20" arrivalLane="-road2_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="10.97" duration="18.00" routeLength="122.77" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.75" rerouteNo="1" devices="tripinfo_vehicle_92 routing_vehicle_92 emissions_vehicle_92 battery_vehicle_92" vType="human" speedFactor="0.83" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="43.801505"/>
+    </tripinfo>
+    <tripinfo id="vehicle_103" depart="2.80" departLane="road3_0" departPos="4.10" departPosLat="0.00" departSpeed="0.80" departDelay="2.15" arrival="22.00" arrivalLane="-road2_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.93" duration="19.20" routeLength="122.77" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="8.04" rerouteNo="1" devices="tripinfo_vehicle_103 routing_vehicle_103 emissions_vehicle_103 battery_vehicle_103" vType="human" speedFactor="0.95" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="64.467693"/>
+    </tripinfo>
+    <tripinfo id="vehicle_75" depart="1.20" departLane="road1_0" departPos="4.10" departPosLat="0.00" departSpeed="9.36" departDelay="0.32" arrival="22.80" arrivalLane="-road3_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.50" duration="21.60" routeLength="206.37" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.03" rerouteNo="1" devices="tripinfo_vehicle_75 routing_vehicle_75 emissions_vehicle_75 battery_vehicle_75" vType="human" speedFactor="0.98" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="57.673760"/>
+    </tripinfo>
+    <tripinfo id="vehicle_23" depart="4.80" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="3.32" departDelay="3.08" arrival="23.60" arrivalLane="-road1_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.49" duration="18.80" routeLength="122.77" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.31" rerouteNo="1" devices="tripinfo_vehicle_23 routing_vehicle_23 emissions_vehicle_23 battery_vehicle_23" vType="human" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="53.024384"/>
+    </tripinfo>
+    <tripinfo id="vehicle_73" depart="9.20" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="1.61" departDelay="6.01" arrival="28.00" arrivalLane="-road1_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.46" duration="18.80" routeLength="122.77" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="8.55" rerouteNo="1" devices="tripinfo_vehicle_73 routing_vehicle_73 emissions_vehicle_73 battery_vehicle_73" vType="human" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="62.022514"/>
+    </tripinfo>
+    <tripinfo id="vehicle_84" depart="0.40" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="9.75" departDelay="0.20" arrival="28.00" arrivalLane="-road3_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.84" duration="27.60" routeLength="289.97" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.56" rerouteNo="1" devices="tripinfo_vehicle_84 routing_vehicle_84 emissions_vehicle_84 battery_vehicle_84" vType="human" speedFactor="1.15" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="83.667707"/>
+    </tripinfo>
+    <tripinfo id="vehicle_56" depart="6.00" departLane="road1_0" departPos="4.10" departPosLat="0.00" departSpeed="2.46" departDelay="2.13" arrival="29.20" arrivalLane="-road0_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.22" duration="23.20" routeLength="122.77" waitingTime="1.60" waitingCount="1" stopTime="0.00" timeLoss="11.85" rerouteNo="1" devices="tripinfo_vehicle_56 routing_vehicle_56 emissions_vehicle_56 battery_vehicle_56" vType="human" speedFactor="0.90" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="59.374119"/>
+    </tripinfo>
+    <tripinfo id="vehicle_61" depart="2.00" departLane="road0_0" departPos="4.10" departPosLat="0.00" departSpeed="2.82" departDelay="0.11" arrival="31.20" arrivalLane="-road1_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.15" duration="29.20" routeLength="289.97" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.03" rerouteNo="0" devices="tripinfo_vehicle_61 emissions_vehicle_61 battery_vehicle_61" vType="human" speedFactor="1.12" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="101.069989"/>
+    </tripinfo>
+    <tripinfo id="vehicle_106" depart="1.20" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="5.40" departDelay="0.91" arrival="31.20" arrivalLane="-road3_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.72" duration="30.00" routeLength="289.97" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.76" rerouteNo="1" devices="tripinfo_vehicle_106 routing_vehicle_106 emissions_vehicle_106 battery_vehicle_106" vType="human" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="98.360269"/>
+    </tripinfo>
+    <tripinfo id="vehicle_99" depart="4.80" departLane="road0_0" departPos="4.10" departPosLat="0.00" departSpeed="2.03" departDelay="2.79" arrival="32.00" arrivalLane="-road2_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.89" duration="27.20" routeLength="206.37" waitingTime="2.80" waitingCount="2" stopTime="0.00" timeLoss="11.21" rerouteNo="0" devices="tripinfo_vehicle_99 emissions_vehicle_99 battery_vehicle_99" vType="human" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="82.578668"/>
+    </tripinfo>
+    <tripinfo id="vehicle_25" depart="0.40" departLane="road3_0" departPos="4.10" departPosLat="0.00" departSpeed="8.34" departDelay="0.27" arrival="32.40" arrivalLane="-road0_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.49" duration="32.00" routeLength="289.97" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.64" rerouteNo="1" devices="tripinfo_vehicle_25 routing_vehicle_25 emissions_vehicle_25 battery_vehicle_25" vType="human" speedFactor="0.87" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="69.279809"/>
+    </tripinfo>
+    <tripinfo id="vehicle_15" depart="3.60" departLane="road0_0" departPos="4.10" departPosLat="0.00" departSpeed="5.12" departDelay="1.46" arrival="34.40" arrivalLane="-road1_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.43" duration="30.80" routeLength="289.97" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.00" rerouteNo="0" devices="tripinfo_vehicle_15 emissions_vehicle_15 battery_vehicle_15" vType="human" speedFactor="0.93" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="82.486636"/>
+    </tripinfo>
+    <tripinfo id="vehicle_101" depart="2.40" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="2.32" departDelay="1.54" arrival="36.00" arrivalLane="-road3_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="13.35" duration="33.60" routeLength="289.97" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.21" rerouteNo="1" devices="tripinfo_vehicle_101 routing_vehicle_101 emissions_vehicle_101 battery_vehicle_101" vType="human" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="104.864073"/>
+    </tripinfo>
+    <tripinfo id="vehicle_3" depart="8.40" departLane="road1_0" departPos="4.10" departPosLat="0.00" departSpeed="1.67" departDelay="3.72" arrival="36.80" arrivalLane="-road0_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.96" duration="28.40" routeLength="122.77" waitingTime="5.20" waitingCount="2" stopTime="0.00" timeLoss="18.44" rerouteNo="1" devices="tripinfo_vehicle_3 routing_vehicle_3 emissions_vehicle_3 battery_vehicle_3" vType="human" speedFactor="1.08" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="59.686968"/>
+    </tripinfo>
+    <tripinfo id="vehicle_43" depart="5.20" departLane="road3_0" departPos="4.10" departPosLat="0.00" departSpeed="1.96" departDelay="4.38" arrival="37.60" arrivalLane="-road2_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.60" duration="32.40" routeLength="122.77" waitingTime="14.00" waitingCount="1" stopTime="0.00" timeLoss="22.05" rerouteNo="1" devices="tripinfo_vehicle_43 routing_vehicle_43 emissions_vehicle_43 battery_vehicle_43" vType="human" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="67.457290"/>
+    </tripinfo>
+    <tripinfo id="vehicle_26" depart="4.00" departLane="road1_0" departPos="4.10" departPosLat="0.00" departSpeed="2.51" departDelay="1.27" arrival="39.20" arrivalLane="-road3_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.20" duration="35.20" routeLength="206.37" waitingTime="3.20" waitingCount="1" stopTime="0.00" timeLoss="17.27" rerouteNo="1" devices="tripinfo_vehicle_26 routing_vehicle_26 emissions_vehicle_26 battery_vehicle_26" vType="human" speedFactor="0.92" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="71.479077"/>
+    </tripinfo>
+    <tripinfo id="vehicle_10" depart="15.60" departLane="road1_0" departPos="4.10" departPosLat="0.00" departSpeed="0.82" departDelay="10.83" arrival="39.60" arrivalLane="-road0_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.90" duration="24.00" routeLength="122.77" waitingTime="2.80" waitingCount="1" stopTime="0.00" timeLoss="13.80" rerouteNo="1" devices="tripinfo_vehicle_10 routing_vehicle_10 emissions_vehicle_10 battery_vehicle_10" vType="human" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="58.526379"/>
+    </tripinfo>
+    <tripinfo id="vehicle_63" depart="8.80" departLane="road0_0" departPos="4.10" departPosLat="0.00" departSpeed="2.17" departDelay="3.77" arrival="42.00" arrivalLane="-road2_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.53" duration="33.20" routeLength="206.37" waitingTime="1.20" waitingCount="1" stopTime="0.00" timeLoss="16.67" rerouteNo="0" devices="tripinfo_vehicle_63 emissions_vehicle_63 battery_vehicle_63" vType="human" speedFactor="0.99" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="70.464579"/>
+    </tripinfo>
+    <tripinfo id="vehicle_93" depart="18.00" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="1.74" departDelay="13.99" arrival="42.40" arrivalLane="-road1_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.44" duration="24.40" routeLength="122.77" waitingTime="3.20" waitingCount="1" stopTime="0.00" timeLoss="13.27" rerouteNo="1" devices="tripinfo_vehicle_93 routing_vehicle_93 emissions_vehicle_93 battery_vehicle_93" vType="human" speedFactor="0.92" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="54.283160"/>
+    </tripinfo>
+    <tripinfo id="vehicle_16" depart="6.80" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="2.86" departDelay="4.32" arrival="43.20" arrivalLane="-road3_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.22" duration="36.40" routeLength="289.97" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.85" rerouteNo="1" devices="tripinfo_vehicle_16 routing_vehicle_16 emissions_vehicle_16 battery_vehicle_16" vType="human" speedFactor="0.88" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="83.139828"/>
+    </tripinfo>
+    <tripinfo id="vehicle_94" depart="12.80" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="2.33" departDelay="9.22" arrival="44.40" arrivalLane="-road0_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.32" duration="31.60" routeLength="206.37" waitingTime="5.60" waitingCount="1" stopTime="0.00" timeLoss="15.14" rerouteNo="1" devices="tripinfo_vehicle_94 routing_vehicle_94 emissions_vehicle_94 battery_vehicle_94" vType="human" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="82.265441"/>
+    </tripinfo>
+    <tripinfo id="vehicle_38" depart="7.60" departLane="road3_0" departPos="4.10" departPosLat="0.00" departSpeed="2.31" departDelay="4.33" arrival="46.00" arrivalLane="-road2_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.39" duration="38.40" routeLength="122.77" waitingTime="18.00" waitingCount="2" stopTime="0.00" timeLoss="28.31" rerouteNo="1" devices="tripinfo_vehicle_38 routing_vehicle_38 emissions_vehicle_38 battery_vehicle_38" vType="human" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="66.451097"/>
+    </tripinfo>
+    <tripinfo id="vehicle_68" depart="15.20" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="1.70" departDelay="11.41" arrival="46.80" arrivalLane="-road0_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.52" duration="31.60" routeLength="206.37" waitingTime="4.00" waitingCount="1" stopTime="0.00" timeLoss="15.09" rerouteNo="1" devices="tripinfo_vehicle_68 routing_vehicle_68 emissions_vehicle_68 battery_vehicle_68" vType="human" speedFactor="1.04" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="74.564861"/>
+    </tripinfo>
+    <tripinfo id="vehicle_83" depart="28.00" departLane="road3_0" departPos="4.10" departPosLat="0.00" departSpeed="0.94" departDelay="21.95" arrival="51.60" arrivalLane="-road2_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.90" duration="23.60" routeLength="122.77" waitingTime="2.80" waitingCount="1" stopTime="0.00" timeLoss="12.91" rerouteNo="1" devices="tripinfo_vehicle_83 routing_vehicle_83 emissions_vehicle_83 battery_vehicle_83" vType="human" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="59.906457"/>
+    </tripinfo>
+    <tripinfo id="vehicle_21" depart="36.80" departLane="road3_0" departPos="4.10" departPosLat="0.00" departSpeed="1.49" departDelay="29.31" arrival="54.40" arrivalLane="-road2_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.46" duration="17.60" routeLength="122.77" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="7.11" rerouteNo="1" devices="tripinfo_vehicle_21 routing_vehicle_21 emissions_vehicle_21 battery_vehicle_21" vType="human" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="61.076508"/>
+    </tripinfo>
+    <tripinfo id="vehicle_59" depart="15.60" departLane="road0_0" departPos="4.10" departPosLat="0.00" departSpeed="1.03" departDelay="9.99" arrival="55.20" arrivalLane="-road3_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.25" duration="39.60" routeLength="122.77" waitingTime="20.40" waitingCount="2" stopTime="0.00" timeLoss="29.26" rerouteNo="0" devices="tripinfo_vehicle_59 emissions_vehicle_59 battery_vehicle_59" vType="human" speedFactor="0.97" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="57.272811"/>
+    </tripinfo>
+    <tripinfo id="vehicle_114" depart="34.00" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="3.17" departDelay="27.30" arrival="55.20" arrivalLane="-road1_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.73" duration="21.20" routeLength="122.77" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.71" rerouteNo="1" devices="tripinfo_vehicle_114 routing_vehicle_114 emissions_vehicle_114 battery_vehicle_114" vType="human" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="61.051109"/>
+    </tripinfo>
+    <tripinfo id="vehicle_34" depart="18.80" departLane="road1_0" departPos="4.10" departPosLat="0.00" departSpeed="1.63" departDelay="14.20" arrival="57.60" arrivalLane="-road2_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.13" duration="38.80" routeLength="289.97" waitingTime="2.00" waitingCount="1" stopTime="0.00" timeLoss="16.52" rerouteNo="1" devices="tripinfo_vehicle_34 routing_vehicle_34 emissions_vehicle_34 battery_vehicle_34" vType="human" speedFactor="0.99" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="99.882579"/>
+    </tripinfo>
+    <tripinfo id="vehicle_42" depart="6.80" departLane="road0_0" departPos="4.10" departPosLat="0.00" departSpeed="2.09" departDelay="3.74" arrival="58.40" arrivalLane="-road1_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.15" duration="51.60" routeLength="289.97" waitingTime="14.40" waitingCount="2" stopTime="0.00" timeLoss="29.60" rerouteNo="0" devices="tripinfo_vehicle_42 emissions_vehicle_42 battery_vehicle_42" vType="human" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="99.878936"/>
+    </tripinfo>
+    <tripinfo id="vehicle_37" depart="39.60" departLane="road3_0" departPos="4.10" departPosLat="0.00" departSpeed="3.27" departDelay="31.27" arrival="60.00" arrivalLane="-road2_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.95" duration="20.40" routeLength="122.77" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.45" rerouteNo="1" devices="tripinfo_vehicle_37 routing_vehicle_37 emissions_vehicle_37 battery_vehicle_37" vType="human" speedFactor="1.18" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="55.908288"/>
+    </tripinfo>
+    <tripinfo id="vehicle_78" depart="41.60" departLane="road3_0" departPos="4.10" departPosLat="0.00" departSpeed="3.00" departDelay="31.44" arrival="62.00" arrivalLane="-road2_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.08" duration="20.40" routeLength="122.77" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.17" rerouteNo="1" devices="tripinfo_vehicle_78 routing_vehicle_78 emissions_vehicle_78 battery_vehicle_78" vType="human" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="56.047988"/>
+    </tripinfo>
+    <tripinfo id="vehicle_13" depart="26.80" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="1.55" departDelay="20.61" arrival="62.40" arrivalLane="-road3_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.83" duration="35.60" routeLength="289.97" waitingTime="0.40" waitingCount="1" stopTime="0.00" timeLoss="13.30" rerouteNo="1" devices="tripinfo_vehicle_13 routing_vehicle_13 emissions_vehicle_13 battery_vehicle_13" vType="human" speedFactor="1.12" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="104.958190"/>
+    </tripinfo>
+    <tripinfo id="vehicle_118" depart="10.00" departLane="road3_0" departPos="4.10" departPosLat="0.00" departSpeed="1.03" departDelay="6.37" arrival="66.00" arrivalLane="-road1_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.08" duration="56.00" routeLength="206.37" waitingTime="16.40" waitingCount="2" stopTime="0.00" timeLoss="39.31" rerouteNo="1" devices="tripinfo_vehicle_118 routing_vehicle_118 emissions_vehicle_118 battery_vehicle_118" vType="human" speedFactor="0.99" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="73.766075"/>
+    </tripinfo>
+    <tripinfo id="vehicle_51" depart="18.40" departLane="road0_0" departPos="4.10" departPosLat="0.00" departSpeed="0.25" departDelay="11.72" arrival="66.80" arrivalLane="-road2_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.31" duration="48.40" routeLength="206.37" waitingTime="19.60" waitingCount="1" stopTime="0.00" timeLoss="32.30" rerouteNo="0" devices="tripinfo_vehicle_51 emissions_vehicle_51 battery_vehicle_51" vType="human" speedFactor="1.17" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="79.180099"/>
+    </tripinfo>
+    <tripinfo id="vehicle_112" depart="31.60" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="2.35" departDelay="25.34" arrival="67.20" arrivalLane="-road3_0" arrivalPos="19.96" arrivalPosLat="-0.00" arrivalSpeed="12.18" duration="35.60" routeLength="289.97" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="13.54" rerouteNo="1" devices="tripinfo_vehicle_112 routing_vehicle_112 emissions_vehicle_112 battery_vehicle_112" vType="human" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="98.428596"/>
+    </tripinfo>
+    <tripinfo id="vehicle_12" depart="42.00" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="2.41" departDelay="32.38" arrival="68.00" arrivalLane="-road1_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.33" duration="26.00" routeLength="122.77" waitingTime="0.80" waitingCount="1" stopTime="0.00" timeLoss="15.60" rerouteNo="1" devices="tripinfo_vehicle_12 routing_vehicle_12 emissions_vehicle_12 battery_vehicle_12" vType="human" speedFactor="1.05" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="57.456950"/>
+    </tripinfo>
+    <tripinfo id="vehicle_95" depart="36.00" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="1.93" departDelay="28.73" arrival="70.00" arrivalLane="-road0_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.94" duration="34.00" routeLength="206.37" waitingTime="0.40" waitingCount="1" stopTime="0.00" timeLoss="17.64" rerouteNo="1" devices="tripinfo_vehicle_95 routing_vehicle_95 emissions_vehicle_95 battery_vehicle_95" vType="human" speedFactor="1.06" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="70.771098"/>
+    </tripinfo>
+    <tripinfo id="vehicle_35" depart="52.40" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="3.06" departDelay="39.29" arrival="72.40" arrivalLane="-road1_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="13.81" duration="20.00" routeLength="122.77" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="9.57" rerouteNo="1" devices="tripinfo_vehicle_35 routing_vehicle_35 emissions_vehicle_35 battery_vehicle_35" vType="human" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="66.571276"/>
+    </tripinfo>
+    <tripinfo id="vehicle_64" depart="47.60" departLane="road3_0" departPos="4.10" departPosLat="0.00" departSpeed="2.78" departDelay="35.92" arrival="72.40" arrivalLane="-road2_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.17" duration="24.80" routeLength="122.77" waitingTime="4.40" waitingCount="1" stopTime="0.00" timeLoss="13.66" rerouteNo="1" devices="tripinfo_vehicle_64 routing_vehicle_64 emissions_vehicle_64 battery_vehicle_64" vType="human" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="56.083655"/>
+    </tripinfo>
+    <tripinfo id="vehicle_107" depart="38.40" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="3.64" departDelay="29.64" arrival="72.40" arrivalLane="-road0_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.34" duration="34.00" routeLength="206.37" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="17.81" rerouteNo="1" devices="tripinfo_vehicle_107 routing_vehicle_107 emissions_vehicle_107 battery_vehicle_107" vType="human" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="70.958497"/>
+    </tripinfo>
+    <tripinfo id="vehicle_79" depart="49.60" departLane="road3_0" departPos="4.10" departPosLat="0.00" departSpeed="2.41" departDelay="36.59" arrival="74.40" arrivalLane="-road2_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.87" duration="24.80" routeLength="122.77" waitingTime="3.20" waitingCount="1" stopTime="0.00" timeLoss="14.31" rerouteNo="1" devices="tripinfo_vehicle_79 routing_vehicle_79 emissions_vehicle_79 battery_vehicle_79" vType="human" speedFactor="1.09" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="62.355122"/>
+    </tripinfo>
+    <tripinfo id="vehicle_40" depart="54.40" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="2.43" departDelay="40.02" arrival="74.80" arrivalLane="-road1_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.11" duration="20.40" routeLength="122.77" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="10.06" rerouteNo="1" devices="tripinfo_vehicle_40 routing_vehicle_40 emissions_vehicle_40 battery_vehicle_40" vType="human" speedFactor="1.03" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="54.670769"/>
+    </tripinfo>
+    <tripinfo id="vehicle_110" depart="26.40" departLane="road1_0" departPos="4.10" departPosLat="0.00" departSpeed="1.11" departDelay="19.04" arrival="74.80" arrivalLane="-road3_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.82" duration="48.40" routeLength="206.37" waitingTime="21.60" waitingCount="1" stopTime="0.00" timeLoss="30.83" rerouteNo="1" devices="tripinfo_vehicle_110 routing_vehicle_110 emissions_vehicle_110 battery_vehicle_110" vType="human" speedFactor="0.93" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="78.162862"/>
+    </tripinfo>
+    <tripinfo id="vehicle_48" depart="43.60" departLane="road3_0" departPos="4.10" departPosLat="0.00" departSpeed="2.95" departDelay="31.85" arrival="78.00" arrivalLane="-road1_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="10.87" duration="34.40" routeLength="206.37" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="15.88" rerouteNo="1" devices="tripinfo_vehicle_48 routing_vehicle_48 emissions_vehicle_48 battery_vehicle_48" vType="human" speedFactor="0.88" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="56.634666"/>
+    </tripinfo>
+    <tripinfo id="vehicle_91" depart="29.60" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="3.61" departDelay="23.55" arrival="78.00" arrivalLane="-road3_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.25" duration="48.40" routeLength="289.97" waitingTime="10.40" waitingCount="1" stopTime="0.00" timeLoss="23.45" rerouteNo="1" devices="tripinfo_vehicle_91 routing_vehicle_91 emissions_vehicle_91 battery_vehicle_91" vType="human" speedFactor="0.89" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="81.301883"/>
+    </tripinfo>
+    <tripinfo id="vehicle_24" depart="60.00" departLane="road3_0" departPos="4.10" departPosLat="0.00" departSpeed="1.77" departDelay="41.54" arrival="79.20" arrivalLane="-road2_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.13" duration="19.20" routeLength="122.77" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.77" rerouteNo="1" devices="tripinfo_vehicle_24 routing_vehicle_24 emissions_vehicle_24 battery_vehicle_24" vType="human" speedFactor="0.83" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="49.756668"/>
+    </tripinfo>
+    <tripinfo id="vehicle_72" depart="44.40" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="1.70" departDelay="33.13" arrival="79.60" arrivalLane="-road0_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.68" duration="35.20" routeLength="206.37" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="18.14" rerouteNo="1" devices="tripinfo_vehicle_72 routing_vehicle_72 emissions_vehicle_72 battery_vehicle_72" vType="human" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="65.301867"/>
+    </tripinfo>
+    <tripinfo id="vehicle_20" depart="20.40" departLane="road0_0" departPos="4.10" departPosLat="0.00" departSpeed="0.43" departDelay="13.21" arrival="80.00" arrivalLane="-road1_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.41" duration="59.60" routeLength="289.97" waitingTime="19.20" waitingCount="1" stopTime="0.00" timeLoss="37.13" rerouteNo="0" devices="tripinfo_vehicle_20 emissions_vehicle_20 battery_vehicle_20" vType="human" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="89.305924"/>
+    </tripinfo>
+    <tripinfo id="vehicle_89" depart="62.40" departLane="road3_0" departPos="4.10" departPosLat="0.00" departSpeed="3.30" departDelay="43.96" arrival="81.60" arrivalLane="-road2_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="13.50" duration="19.20" routeLength="122.77" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="8.69" rerouteNo="1" devices="tripinfo_vehicle_89 routing_vehicle_89 emissions_vehicle_89 battery_vehicle_89" vType="human" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="64.484162"/>
+    </tripinfo>
+    <tripinfo id="vehicle_53" depart="45.60" departLane="road3_0" departPos="4.10" departPosLat="0.00" departSpeed="1.83" departDelay="33.70" arrival="82.00" arrivalLane="-road0_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.97" duration="36.40" routeLength="289.97" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="14.07" rerouteNo="1" devices="tripinfo_vehicle_53 routing_vehicle_53 emissions_vehicle_53 battery_vehicle_53" vType="human" speedFactor="1.10" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="95.200528"/>
+    </tripinfo>
+    <tripinfo id="vehicle_116" depart="40.00" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="2.78" departDelay="30.86" arrival="83.60" arrivalLane="-road3_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.38" duration="43.60" routeLength="289.97" waitingTime="1.60" waitingCount="1" stopTime="0.00" timeLoss="21.61" rerouteNo="1" devices="tripinfo_vehicle_116 routing_vehicle_116 emissions_vehicle_116 battery_vehicle_116" vType="human" speedFactor="1.18" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="81.519005"/>
+    </tripinfo>
+    <tripinfo id="vehicle_57" depart="52.00" departLane="road3_0" departPos="4.10" departPosLat="0.00" departSpeed="0.64" departDelay="33.68" arrival="84.00" arrivalLane="-road1_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.52" duration="32.00" routeLength="206.37" waitingTime="1.60" waitingCount="1" stopTime="0.00" timeLoss="15.69" rerouteNo="1" devices="tripinfo_vehicle_57 routing_vehicle_57 emissions_vehicle_57 battery_vehicle_57" vType="human" speedFactor="1.14" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="80.997373"/>
+    </tripinfo>
+    <tripinfo id="vehicle_97" depart="57.20" departLane="road1_0" departPos="4.10" departPosLat="0.00" departSpeed="0.75" departDelay="41.31" arrival="84.40" arrivalLane="-road0_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.90" duration="27.20" routeLength="122.77" waitingTime="2.00" waitingCount="1" stopTime="0.00" timeLoss="15.75" rerouteNo="1" devices="tripinfo_vehicle_97 routing_vehicle_97 emissions_vehicle_97 battery_vehicle_97" vType="human" speedFactor="0.91" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="54.739767"/>
+    </tripinfo>
+    <tripinfo id="vehicle_17" depart="47.20" departLane="road0_0" departPos="4.10" departPosLat="0.00" departSpeed="2.82" departDelay="37.20" arrival="86.40" arrivalLane="-road3_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.26" duration="39.20" routeLength="122.77" waitingTime="16.80" waitingCount="2" stopTime="0.00" timeLoss="28.26" rerouteNo="0" devices="tripinfo_vehicle_17 emissions_vehicle_17 battery_vehicle_17" vType="human" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="49.981606"/>
+    </tripinfo>
+    <tripinfo id="vehicle_119" depart="50.00" departLane="road2_0" departPos="4.10" departPosLat="0.00" departSpeed="1.11" departDelay="38.38" arrival="90.40" arrivalLane="-road3_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="10.81" duration="40.40" routeLength="289.97" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="18.09" rerouteNo="1" devices="tripinfo_vehicle_119 routing_vehicle_119 emissions_vehicle_119 battery_vehicle_119" vType="human" speedFactor="1.07" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="76.128909"/>
+    </tripinfo>
+    <tripinfo id="vehicle_109" depart="29.20" departLane="road1_0" departPos="4.10" departPosLat="0.00" departSpeed="1.35" departDelay="20.61" arrival="91.20" arrivalLane="-road2_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="9.78" duration="62.00" routeLength="289.97" waitingTime="21.60" waitingCount="3" stopTime="0.00" timeLoss="38.89" rerouteNo="1" devices="tripinfo_vehicle_109 routing_vehicle_109 emissions_vehicle_109 battery_vehicle_109" vType="human" speedFactor="0.96" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="76.885193"/>
+    </tripinfo>
+    <tripinfo id="vehicle_69" depart="73.60" departLane="road0_0" departPos="4.10" departPosLat="0.00" departSpeed="3.25" departDelay="61.64" arrival="92.80" arrivalLane="-road3_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="13.52" duration="19.20" routeLength="122.77" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="8.86" rerouteNo="0" devices="tripinfo_vehicle_69 emissions_vehicle_69 battery_vehicle_69" vType="human" speedFactor="1.02" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="63.673530"/>
+    </tripinfo>
+    <tripinfo id="vehicle_66" depart="44.80" departLane="road0_0" departPos="4.10" departPosLat="0.00" departSpeed="1.27" departDelay="35.66" arrival="93.20" arrivalLane="-road2_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.94" duration="48.40" routeLength="206.37" waitingTime="17.60" waitingCount="2" stopTime="0.00" timeLoss="30.45" rerouteNo="0" devices="tripinfo_vehicle_66 emissions_vehicle_66 battery_vehicle_66" vType="human" speedFactor="0.91" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="71.243760"/>
+    </tripinfo>
+    <tripinfo id="vehicle_39" depart="78.00" departLane="road1_0" departPos="4.10" departPosLat="0.00" departSpeed="1.83" departDelay="54.64" arrival="95.20" arrivalLane="-road0_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="11.32" duration="17.20" routeLength="122.77" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="5.84" rerouteNo="1" devices="tripinfo_vehicle_39 routing_vehicle_39 emissions_vehicle_39 battery_vehicle_39" vType="human" speedFactor="0.90" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="54.037447"/>
+    </tripinfo>
+    <tripinfo id="vehicle_88" depart="75.60" departLane="road0_0" departPos="4.10" departPosLat="0.00" departSpeed="3.32" departDelay="62.86" arrival="95.60" arrivalLane="-road3_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="13.55" duration="20.00" routeLength="122.77" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="9.31" rerouteNo="0" devices="tripinfo_vehicle_88 emissions_vehicle_88 battery_vehicle_88" vType="human" speedFactor="1.01" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="62.189134"/>
+    </tripinfo>
+    <tripinfo id="vehicle_29" depart="31.60" departLane="road1_0" departPos="4.10" departPosLat="0.00" departSpeed="1.51" departDelay="18.87" arrival="96.40" arrivalLane="-road2_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.08" duration="64.80" routeLength="289.97" waitingTime="19.60" waitingCount="1" stopTime="0.00" timeLoss="40.71" rerouteNo="1" devices="tripinfo_vehicle_29 routing_vehicle_29 emissions_vehicle_29 battery_vehicle_29" vType="human" speedFactor="0.93" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="87.300026"/>
+    </tripinfo>
+    <tripinfo id="vehicle_60" depart="62.40" departLane="road1_0" departPos="4.10" departPosLat="0.00" departSpeed="1.31" departDelay="45.64" arrival="97.20" arrivalLane="-road3_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="12.56" duration="34.80" routeLength="206.37" waitingTime="0.40" waitingCount="1" stopTime="0.00" timeLoss="18.74" rerouteNo="1" devices="tripinfo_vehicle_60 routing_vehicle_60 emissions_vehicle_60 battery_vehicle_60" vType="human" speedFactor="1.08" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="70.332576"/>
+    </tripinfo>
+    <tripinfo id="rl_0" depart="64.40" departLane="road3_0" departPos="4.10" departPosLat="0.00" departSpeed="0.73" departDelay="45.40" arrival="97.20" arrivalLane="-road1_0" arrivalPos="19.96" arrivalPosLat="0.00" arrivalSpeed="6.19" duration="32.80" routeLength="206.37" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="15.35" rerouteNo="1" devices="tripinfo_rl_0 routing_rl_0 emissions_rl_0 battery_rl_0 driverstaterl_0" vType="rlAnget" speedFactor="0.94" vaporized="">
+        <emissions CO_abs="0" CO2_abs="0" HC_abs="0" PMx_abs="0" NOx_abs="0" fuel_abs="0" electricity_abs="37.907389"/>
+    </tripinfo>
+</tripinfos>

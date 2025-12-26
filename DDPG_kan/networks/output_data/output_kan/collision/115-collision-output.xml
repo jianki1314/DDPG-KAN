@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-05-29 08:53:10 by Eclipse SUMO sumo Version v1_20_0+0085-e155ab8699b
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../networks/roundabout.net.xml"/>
+        <route-files value="../networks/routes1.rou.xml"/>
+    </input>
+
+    <output>
+        <output-prefix value="115-"/>
+        <battery-output.precision value="4"/>
+        <tripinfo-output value="../networks/output_data/output_kan/tripinfo/tripinfo-output.xml"/>
+        <collision-output value="../networks/output_data/output_kan/collision/collision-output.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <step-length value="0.4"/>
+    </time>
+
+    <processing>
+        <step-method.ballistic value="true"/>
+        <lateral-resolution value="3.2"/>
+        <collision.action value="warn"/>
+        <collision.mingap-factor value="0"/>
+        <time-to-teleport value="-1"/>
+        <random-depart-offset value="5"/>
+    </processing>
+
+    <report>
+        <no-warnings value="True"/>
+        <no-step-log value="True"/>
+    </report>
+
+    <emissions>
+        <device.emissions.probability value="1"/>
+    </emissions>
+
+    <battery>
+        <device.battery.probability value="1"/>
+    </battery>
+
+    <traci_server>
+        <remote-port value="38873"/>
+    </traci_server>
+
+    <gui_only>
+        <quit-on-end value="True"/>
+        <start value="True"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+    <collision time="104.00" type="collision" lane="round3_0" pos="54.36" collider="rl_0" victim="vehicle_116" colliderType="rlAnget" victimType="human" colliderSpeed="7.09" victimSpeed="1.82"/>
+    <collision time="104.40" type="collision" lane="round3_0" pos="56.93" collider="vehicle_116" victim="rl_0" colliderType="human" victimType="rlAnget" colliderSpeed="1.69" victimSpeed="5.89"/>
+    <collision time="104.80" type="collision" lane="round3_0" pos="57.58" collider="vehicle_116" victim="rl_0" colliderType="human" victimType="rlAnget" colliderSpeed="1.56" victimSpeed="4.69"/>
+    <collision time="105.20" type="collision" lane="round3_1" pos="60.71" collider="rl_0" victim="vehicle_40" colliderType="rlAnget" victimType="human" colliderSpeed="3.49" victimSpeed="0.08"/>
+    <collision time="105.20" type="collision" lane="round3_0" pos="57.72" collider="vehicle_116" victim="rl_0" colliderType="human" victimType="rlAnget" colliderSpeed="0.00" victimSpeed="3.49"/>
+    <collision time="105.60" type="collision" lane="round3_0" pos="61.87" collider="rl_0" victim="vehicle_40" colliderType="rlAnget" victimType="human" colliderSpeed="2.29" victimSpeed="0.96"/>
+    <collision time="106.00" type="collision" lane="round3_0" pos="62.55" collider="rl_0" victim="vehicle_40" colliderType="rlAnget" victimType="human" colliderSpeed="1.09" victimSpeed="1.83"/>
+    <collision time="106.40" type="collision" lane="round3_0" pos="62.75" collider="rl_0" victim="vehicle_40" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="1.64"/>
+    <collision time="106.80" type="collision" lane="round3_0" pos="62.75" collider="rl_0" victim="vehicle_40" colliderType="rlAnget" victimType="human" colliderSpeed="0.00" victimSpeed="1.46"/>
+</collisions>

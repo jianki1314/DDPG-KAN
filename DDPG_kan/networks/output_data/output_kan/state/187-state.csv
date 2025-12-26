@@ -1,0 +1,2 @@
+sim_time,state,agent_action,agent_reard,agent_id,agent_speed,agent_waiting,agent_jeck,agent_collision
+134.8,[-0.631 -1.     0.    -0.945  0.159 -0.492 -0.152],0.7187448740005493,-12.189201379648892,rl_0,2.5828579746990146,0.0,0.0,3
